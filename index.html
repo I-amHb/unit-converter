@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter v2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="main">
+        <header class="w-full flex justify-center">
+            <h1 class="text-4xl">Unit-Converter</h1>
+        </header>
+        <div class="Unit-Converter">
+            <section class="quantity-card sec">
+                <fieldset class="inputs">
+                    <select name="quantity" id="quantity"></select>
+                    <label name="from" class="from">
+                        <input type="text" id="from-input" value="0" inputmode="decimal">
+                        <select class="from-units"></select>
+                    </label>
+                    <label name="to" class="to">
+                        <input type="text" id="to-input" value="0" inputmode="decimal">
+                        <select class="to-units"></select>
+                    </label>
+                </fieldset>
+            </section>
+            <section class="typepad sec">
+                <div class="keys">
+                    <ul class="key-grid">
+                        <li class="clear-key"><button type="button">C</button></li>
+                        <li class="backspace-key"><button type="button">    ←</button></li>
+                        <li class="1-key"><button type="button">1</button></li>
+                        <li class="2-key"><button type="button">2</button></li>
+                        <li class="3-key"><button type="button">3</button></li>
+                        <li class="4-key"><button type="button">4</button></li>
+                        <li class="5-key"><button type="button">5</button></li>
+                        <li class="6-key"><button type="button">6</button></li>
+                        <li class="7-key"><button type="button">7</button></li>
+                        <li class="8-key"><button type="button">8</button></li>
+                        <li class="9-key"><button type="button">9</button></li>
+                        <li class="0-key"><button type="button">0</button></li>
+                        <li class="dot-key"><button type="button">.</button></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+
+</html>
